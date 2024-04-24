@@ -16,7 +16,7 @@ function meuEscopo(){
 
         const pessoa = createObj(nome, sobrenome, telefone, email);
 
-        const dados = `Nome: ${nome} <br> Sobrenome: ${sobrenome} <br> Telefone: ${telefone} <br> E-mail: ${email}`;
+        const dados = `Nome: ${pessoa.nome} <br> Sobrenome: ${pessoa.sobrenome} <br> Telefone: ${pessoa.telefone} <br> E-mail: ${pessoa.email}`;
 
         console.log(dados);
 
