@@ -18,11 +18,7 @@ function meuEscopo(){
 
         const dados = `Nome: ${pessoa.nome} <br> Sobrenome: ${pessoa.sobrenome} <br> Telefone: ${pessoa.telefone} <br> E-mail: ${pessoa.email}`;
 
-        console.log(dados);
-
         setResultado(dados);
-
-        
 
     }
     form.addEventListener('submit', recebeEventoForm);
